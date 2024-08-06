@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  position: relative;
+  min-height: 60vh;
+  background: url("./bg-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+.nav {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  width: 40%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.headline {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 1rem === 16px */
+.btn-headline {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.section-todo {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.form-todo {
+    border: 2px solid red;
+    min-height: 5vh;
+    display: flex;
+}
+
+.form-todo input {
+    min-height: 100%;
+}
+
+.form-todo input[type='text'] {
+    width: 80%;
+
+}
