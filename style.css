@@ -140,3 +140,28 @@ a {
   margin: auto;
   margin-top: 1rem;
 }
+
+
+/* .todo-list {
+} */
+
+.todo-list .li-items {
+  background: #4d4c4c;
+  color: #efefef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list button{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="demo.js" defer></script>
+    <script src="todolist.js" defer></script>
     <title>My Website</title>
   </head>
   <body>
@@ -25,9 +25,18 @@
     <section class="section-todo container">
       <h2>Your plan for today ?</h2>
       <form class="form-todo">
-        <input type="text" name="" id="" placeholder="Add Todo" />
+        <input type="text" name="todo-item" id="todo-item" placeholder="Add Todo" />
         <input type="submit" value="Add Todo" class="btn" />
       </form>
+      <ul class="todo-list">
+        <li class="li-items">
+          <span class="text">Do this do that</span>
+          <div>
+            <button class="delete-btn">Deleted</button>
+            <button class="complete-btn">Completed</button>
+          </div>
+        </li>
+      </ul>
     </section>
     <section class="section-signup container">
       <h2>Sign Up</h2>
