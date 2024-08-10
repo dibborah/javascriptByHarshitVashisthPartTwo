@@ -142,25 +142,36 @@ a {
 }
 
 
-/* .todo-list {
-} */
+.todo-list {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
 
-.todo-list .li-items {
+.todo-list li {
+  padding: 1rem;
   background: #4d4c4c;
   color: #efefef;
-  padding: 1rem;
-  border-radius: 0.5rem;
   margin-top: 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.todo-list button{
+.todo-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .todo-list button{
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 100;
-}
+} */
 
 .todo-completed {
   text-decoration: line-through;
