@@ -26,10 +26,22 @@ todoForm.addEventListener('submit', (event) => {
 });
 
 todoList.addEventListener('click', (event) => {
-    if(event.target.textContent === 'Done'){
-        event.target.parentNode.parentNode.querySelector('span').classList.toggle('todo-completed');
+
+    // if(event.target.textContent === 'Done'){
+    //     event.target.parentNode.parentNode.querySelector('span').classList.toggle('todo-completed');
+    // }
+
+    if(event.target.classList.contains('done')){
+        const liSpan = event.target.parentNode.previousElementSibling;
+        liSpan.style.textDecoration = 'line-through';
     }
-    if(event.target.textContent === 'Remove'){
+
+    // if(event.target.textContent === 'Remove'){
+    //     event.target.parentNode.parentNode.remove();
+    // }
+
+    if(event.target.classList.contains('remove')){
+        console.log('remove click')
         event.target.parentNode.parentNode.remove();
     }
 })
