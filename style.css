@@ -156,7 +156,8 @@ a {
 .todo-list li {
   padding: 1rem;
   background: #4d4c4c;
-  color: #efefef;
+  /* color: #efefef; */
+  color: cyan;
   margin-top: 1rem;
   border-radius: 0.5rem;
   text-transform: capitalize;
