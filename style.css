@@ -25,6 +25,11 @@ a {
   color: white;
 }
 
+.bg-dark {
+  background: #000;
+  color: "#eee";
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
