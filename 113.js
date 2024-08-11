@@ -14,6 +14,7 @@ console.log(todoList);
 // When should we use innerHTML and when should we not use innerHTML
 // 1. We should use innerHTML when the entire content has to be changed
 // 2. We should not use innerHTML when we are adding or modifying existing innerHTML
+// 3. innerHTML naye elements ko add karne ke liye use nahi karna
 
 
 
