@@ -156,8 +156,8 @@ a {
 .todo-list li {
   padding: 1rem;
   background: #4d4c4c;
-  /* color: #efefef; */
-  color: cyan;
+  color: #efefef;
+  /* color: cyan; */
   margin-top: 1rem;
   border-radius: 0.5rem;
   text-transform: capitalize;
@@ -181,4 +181,11 @@ a {
 
 .todo-completed {
   text-decoration: line-through;
+}
+
+.addNRemove button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 1.5rem;
+  cursor: pointer;
 }
